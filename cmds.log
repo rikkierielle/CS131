@@ -1,0 +1,293 @@
+    1  passwd
+    2  student
+    3  passwd
+    4  wget www.github.com
+    5  git --version
+    6  /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+    7  brew -v
+    8  /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+    9  touch newfile.txt
+   10  ls
+   11  git status
+   12  git add newfile.txt
+   13  ls
+   14  echo "# cs131" >> README.md
+   15  git init
+   16  git add README.md
+   17  git commit -m "first commit"
+   18  git branch -M main
+   19  git remote add origin git@github.com:rikkierielle/cs131.git
+   20  git push -u origin maingit config --global user.email "you@example.com"
+   21    git config --global user.name "Your Name"rikkierielle
+   22  git config --global user.email "you@example.com"
+   23  got config -- global rikkierielle
+   24  echo "# cs131" >> README.md
+   25  git init
+   26  git add README.md
+   27  git comit -m "first commit"
+   28  git commit -m "first commit"
+   29  git branch -M main
+   30  git remote add origin git@github.com:rikkierielle/cs131.git
+   31  git push -u origin main
+   32  pwd
+   33   cd ~/.ssh && ssh-keygen
+   34  pwd
+   35  cd ~/.ssh && ssh-keygen
+   36  cat id_rsa.pub
+   37  ls -al ~/.ssh
+   38  cd ~/Desktop
+   39  echo "# cs131" >> README.md
+   40  git init
+   41  git add README.md
+   42  git commit -m "first commit"
+   43  git branch -M main
+   44  git remote add origin git@github.com:rikkierielle/cs131.git
+   45  git push -u origin main
+   46  ls
+   47  git push --set-upstream origin master
+   48  git clone https://github.com/rikkierielle/cs131.git
+   49  touch Worksheet1.txt
+   50  ls
+   51  git status
+   52  git commit
+   53  touch WorkSheet1.txt
+   54  git commit
+   55  git add
+   56  git add Worksheet1.txt
+   57  git commit
+   58  git status
+   59  git add <Worksheet1.txt>...
+   60  git add .
+   61  git rm --cached <Worksheet1.txt>...
+   62  git commit -m "This is my first commit!"
+   63  git branch
+   64  git remote add origin git@github.com:rikkierielle/cs131.git
+   65  git push -u origin main
+   66  git branch -M main
+   67  git push -u origin main
+   68  git remote add origin git@github.com:rikkierielle/cs131.git
+   69  git commit -m "Message"
+   70  git add <WorkSheet1.txt>...
+   71  git add . 
+   72  history > cmds.log
+   73  get push -u origin main
+   74  git push -u origin main
+   75  git clone https://github.com/rikkierielle/cs131.git
+   76  git clone git@github.com/rikkierielle/cs131.git
+   77  git clone https://github.com/rikkieriellecs131.git
+   78  git clone https://github.com/rikkierielle/cs131.git
+   79  ls
+   80  pwd
+   81  touch hello.txt
+   82  ls
+   83  open hello.txt
+   84  git init
+   85  git status
+   86  git add .
+   87  git commit -m "first commit"
+   88  git branch -M main
+   89  git remote add origin git@github.com:rikkierielle/cs131.git
+   90  git push -u origin main
+   91  cd ~/.shh && ssh-keygen
+   92  mkdir ~/.shh
+   93  cat id.rsa.pub
+   94  cat id_rsa.pub
+   95  cd ~/.ssh && ssh-keygen
+   96  git commit -m "first commit"
+   97  git add cs131
+   98  git add <cs131>
+   99  git add cs131
+  100  git add hello.txt
+  101  git add .
+  102  git status
+  103  git add <cs131>...
+  104  ls
+  105  touch test.txt
+  106  ls
+  107  git add test.txt...
+  108  git add test.txt
+  109  git status
+  110  git commit -m "first commit"
+  111  git remote add origin git@github.com:rikkierielle/cs131.git
+  112  git push -u origin master
+  113  git pull --rebase origin [branch]
+  114  git pull origin main
+  115  git push -u origin main
+  116  git pull --rebase origin main
+  117  git commit -m 
+  118  git commit -m "first commit"
+  119  got commit -a
+  120  git commit a-
+  121  git commit -a
+  122  wget www.github.com
+  123  ls
+  124  cat cs131
+  125  cat Worksheet1.txt
+  126  wget https://raw.githubusercontent.com/khanchandaniashish/CS131/main/Global%20YouTube%20Statistics.csv
+  127  grep -w United States *
+  128  wget https://raw.githubusercontent.com/khanchandaniashish/CS131/main/Global%20YouTube%20Statistics.csv
+  129  grep -w Music *
+  130  ls
+  131  rm hello.txt
+  132  ls
+  133  rm index.html.1
+  134  rm WorkSheet1.txt
+  135  ls
+  136  rm newfile.txt
+  137  ls
+  138  git remote add origin git@github.com:rikkierielle/cs131.git
+  139  git branch -M main
+  140  git push -u origin main
+  141  ssh-add -D
+  142  git config --global user.email "rikkierielle.navos@sjsu.edu"
+  143  cd ~/.ssh && ssh-keygen
+  144  cat id_rsa.pub
+  145  git remote add origin git@github.com:rikkierielle/cs131.git
+  146  git branch -M main
+  147  git push -u origin main
+  148  wget https://raw.githubusercontent.com/khanchandaniashish/CS131/main/Global%20YouTube%20Statistics.csv
+  149  ls
+  150  grep "United States " 'Global YouTube Statistics.csv'
+  151  'Global YouTube Statistics.csv' grep "United States"
+  152  grep -i "United States" 'Global YouTube Statistics.csv'
+  153  grep -wc "United States" 'Global YouTube Statistics.csv'
+  154  grep -i "Music" 'Global YouTube Statistics.csv'
+  155  grep -wc "Music" 'Global YouTube Statistics.csv'
+  156  grep -wc "Music" 'Global YouTube Statistics.csv' > counts.txt
+  157  ls
+  158  grep -c "Music" grep -wc "Music" 'Global YouTube Statistics.csv' > counts.txt
+  159  grep -c "Music" 'Global YouTube Statistics.csv' > counts.txt
+  160  ls
+  161  cat counts.txt
+  162  grep -wc "Music" 'Global YouTube Statistics.csv' > counts.txt
+  163  cat counts.txt
+  164  grep =wc "Music" 'Global YouTube Statistics.csv'
+  165  grep -wc "Music" 'Global YouTube Statistics.csv'
+  166  grep -c "Music" 'Global YouTube Statistics.csv'
+  167  grep -i "Music" 'Global YouTube Statistics.csv'
+  168  ls
+  169  grep -n "Music" 'Global YouTube Statistics.csv'
+  170  grep -wc "United States" 'Global YouTube Statistics.csv'
+  171  grep -wc "United States" 'Global YouTube Statistics.csv' >counts.txt
+  172  cat counts.txt
+  173  grep -wc "Music 'Global YouTube Statistics.csv' >> counts.txt
+  174  cat counts.txt
+  175  slk
+  176  dsdksjd
+  177  comman
+  178  ls
+  179  ls
+  180  >>
+  181  >
+  182  done
+  183  idk how to end it
+  184  cat counts.txt
+  185  grep -wc "Music" 'Global YouTube Statistics.csv' >> counts.txt
+  186  cat counts.txt
+  187  vi counts.txt
+  188  counts.txt
+  189  cat counts.txt
+  190  vi counts.txt
+  191  cat counts.txt
+  192  history > cmds.log
+  193  mkdir Worksheet2
+  194  file Worksheet2
+  195  ls
+  196  git branch -M main
+  197  git push -u origin main
+  198  git add counts.txt
+  199  git commit -m "first commit"
+  200  git branch -M main
+  201  git remote add origin git@github.com:rikkierielle/cs131.git
+  202  git push -u origin main
+  203  git add cmds.log
+  204  git status
+  205  git add . 
+  206  git status
+  207  git commit -m "counts and commans"
+  208  git push -u origin master
+  209  git -c
+  210  git clone git@github.com/rikkierielle/cs131.git
+  211  ls
+  212  cat Workshee2
+  213  cat Worksheet2
+  214  git config --global user.email "rikkierielle.navos@sjsu.edu
+  215  cd ~/.ssh && ssh.keygen
+  216  cat id_rsa.pub
+  217  git remote add origingit remote add origin git@github.com:rikkierielle/cs131.git
+  218  git config ==global user.email "rikkierielle.navos@sjsu.edu"
+  219  git config --global user.email "rikkierielle.navos@sjsu.edu"
+  220  cd~/.shh && shh-keygen
+  221  mkdir ~/cd~/.shh && ssh-keygen
+  222  cd ~/.ssh && ssh-keygen
+  223  cat id_rsa.pub
+  224  cd ~/.ssh && ssh-keygen
+  225  cat id_rsa.pub
+  226  git init
+  227  git add .
+  228  git status
+  229  git commit -m 'homework'
+  230  git push -u origin master
+  231  git clone git@github.com/rikkierielle/cs131.git
+  232  git clone git@github.com/rikkierielle/cs131.git
+  233  git remote add origin 'git@github.com/rikkierielle/cs131.git'
+  234  git push -u origin master
+  235  ls
+  236  grep Music Global Youtube Statistics.csv
+  237  grep -i United States *
+  238  ls
+  239  rm 'Global YouTube Statistics.csv.1'
+  240  ls
+  241  cat 'Global YouTube Statistics.csv'
+  242  ls
+  243  git init
+  244  ls
+  245  git config --global user.email "rikkierielle.navos@sjsu.edu"
+  246  cd ~/.ssh && ssh-keygen
+  247  cat id_rsa.pub
+  248  touch practice.txt
+  249  ls
+  250  git status
+  251  git push origin master
+  252  git clone https://github.com/rikkierielle/cs131.git
+  253  ls
+  254  cat cmds.log
+  255  ls
+  256  grep -i "United States" 'Global YouTube Statistics.csv'
+  257  grep -i "Music" 'Global YouTube Statistics.csv'
+  258  grep -wc "United States" 'Global YouTube Statistics.csv'
+  259  grep -wc "Music" 'Global YouTube Statistics.csv'
+  260  history > cmds.log
+  261  cat cmds.log
+  262  git push .
+  263  git status
+  264  git commit -a
+  265  git status
+  266  git remote add origin https://github.com/rikkierielle/cs131.git
+  267  git push -u origin master
+  268  git init
+  269  git congig --global user.email 
+  270  git config --global user.email "rikkierielle.navos@sjsu.edu"
+  271  git remote add origin https://github.com/rikkierielle/cs131.git
+  272  git commit -m "Message"
+  273  get push --set-upstream origin master
+  274  git push --set-upstream origin master
+  275  git branch
+  276  git push --set-upstream origin main
+  277  git status
+  278  git add .
+  279  git commit -m "Message"
+  280  git add -a
+  281  git status
+  282  ls
+  283  grep -wc "United States" 'Global YouTube Statistics.csv' > counts.txt
+  284  cat counts.txt
+  285  grep -wc "Music" 'Global YouTube Statistics.csv' >> counts.txt
+  286  vi counts.txt
+  287  cat counts.txt
+  288  git add counts.txt
+  289  got commit -a
+  290  git commit -a
+  291  git status
+  292  ls
+  293  history > cmds.log
