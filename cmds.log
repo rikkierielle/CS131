@@ -623,3 +623,16 @@
   623  vi ws3.txt
   624  cat ws3.txt
   625  history > cmds.log
+  626  git init
+  627  ls
+  628  git add ws3.txt
+  629  git status
+  630  git add ws3.txt
+  631  git commit -m "worksheet 3 outputs"
+  632  git push -u origin main
+  633  git push -f origin main
+  634  git add cmds.log
+  635  git commit -m "history"
+  636  git push -f origin main
+  637  git status
+  638  history > cmds.log
