@@ -1,0 +1,103 @@
+Assignment 2 Answers:
+
+1. find /etc -type f > one.txt 2> two.txt
+	a. With this command, we are trying to find files (not directories or others) in the /etc directory. It then places the output of the searched files in the file "one.txt." If one.txt doesn't exist, it will create on. If it does, it will overwrite. Then, the errors of the find command will be redirect to two.txt. Similarly, if it doesn't exist, it will create it, and if it does, it will overwrite. 
+	b. For one.txt, it contains all the files that was found within the /etc directory. For two.txt, it contains the files that the command was denied permission to. 
+
+2. Based on the dataset, the [Year,Month] with the most created Youtube Channels is: 2006, Mar with 15 channels.
+	The top 3 Year,Month combos are: 
+	1. 2006,Mar with 15 channels
+	2. 2014,Jul with 13 channels
+	3. 2014,Aug with 12 channels
+
+	In order to do this, I used the commands: 
+	1.cut -d "," -f 20,21 'Global YouTube Statistics.csv' > Date.txt 
+		This command cuts the columns 20 and 21 which are year_created and month_created from the Youtube csv file and inputs it to a file called Date.txt.
+	2.sort Date.txt | uniq -c | sort -nr > date.txt
+		This command sorts Date.txt, counts the number of occurrences of the entries, and arranges them into descending order, showing the most repeated line on top and the least repeated at the end. 
+
+3. To find all the processes owned by me, I can use the command: ps -u rikkif23
+	output: 
+    PID TTY          TIME CMD
+3734177 ?        00:00:02 systemd
+3734179 ?        00:00:00 (sd-pam)
+3734189 ?        00:00:00 sshd
+3734191 pts/69   00:00:00 bash
+3750289 ?        00:00:00 sshd
+3750292 pts/94   00:00:00 bash
+3751973 ?        00:00:00 sshd
+3751976 pts/109  00:00:00 bash
+3784338 pts/69   00:00:00 ps
+
+4. After opening two terminals and running the same command as q3 on the first terminal while the second terminal is on prompt for file.txt, the output is: 
+
+    PID TTY          TIME CMD
+3734177 ?        00:00:02 systemd
+3734179 ?        00:00:00 (sd-pam)
+3734189 ?        00:00:00 sshd
+3734191 pts/69   00:00:00 bash
+3750289 ?        00:00:00 sshd
+3750292 pts/94   00:00:00 bash
+3751973 ?        00:00:00 sshd
+3751976 pts/109  00:00:00 bash
+3784451 pts/109  00:00:00 vim
+3784511 pts/69   00:00:00 ps
+
+I noticed that vim is added. The PID for vim is 3784451.  
+
+Output after quitting vi in terminal 1: 
+
+3734177 ?        00:00:02 systemd
+3734179 ?        00:00:00 (sd-pam)
+3734189 ?        00:00:00 sshd
+3734191 pts/69   00:00:00 bash
+3750289 ?        00:00:00 sshd
+3750292 pts/94   00:00:00 bash
+3751973 ?        00:00:00 sshd
+3751976 pts/109  00:00:00 bash
+3787111 pts/69   00:00:00 ps
+
+After quitting vi in the first terminal, it disappears from processes since it is not running anymore.
+
+5. The init process, in simpler terms, is the start point of the operating system. It's short for initialization. 
+
+To find the process id for init, I typed in the command: ps -C systemd which outputed: 
+
+    PID TTY          TIME CMD
+      1 ?        00:43:55 systemd
+  13840 ?        00:05:16 systemd
+  23207 ?        00:04:09 systemd
+  28563 ?        00:05:22 systemd
+  29653 ?        00:04:10 systemd
+  34438 ?        00:04:09 systemd
+  42536 ?        00:04:12 systemd
+  45515 ?        00:05:35 systemd
+  58391 ?        00:04:15 systemd
+ 401663 ?        00:05:33 systemd
+ 597176 ?        00:04:15 systemd
+ 624836 ?        00:04:14 systemd
+ 629993 ?        00:04:14 systemd
+ 635463 ?        00:04:15 systemd
+ 635881 ?        00:04:20 systemd
+ 645070 ?        00:04:18 systemd
+ 661051 ?        00:04:35 systemd
+ 778500 ?        00:01:31 systemd
+ 881307 ?        00:02:23 systemd
+ 939916 ?        00:02:16 systemd
+ 946177 ?        00:02:43 systemd
+ 946380 ?        00:02:45 systemd
+1162453 ?        00:02:21 systemd
+3161122 ?        00:00:13 systemd
+3179299 ?        00:00:13 systemd
+3534512 ?        00:00:07 systemd
+3580729 ?        00:02:03 systemd
+3698259 ?        00:00:04 systemd
+3723421 ?        00:00:03 systemd
+3734177 ?        00:00:03 systemd
+3780383 ?        00:00:00 systemd
+4055511 ?        00:01:58 systemd
+4137443 ?        00:01:40 systemd
+
+systemd is the init in the flavos we use on the IBM VM, based on professor.
+
+6. The command ps aux shows the process status. aux would show a detailed process status for all users including non-terminal associated processes.   

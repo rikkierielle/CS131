@@ -1,0 +1,1007 @@
+   67  git push --set-upstream origin main 
+   68  mkdir sampleProject
+   69  ls -ltr
+   70  cd sampleProject/
+   71  touch sampleFile.txt
+   72  git init
+   73  git add .
+   74  git status
+   75  git config --global user.name "rikkierielle8"
+   76  cd ~/WorkSheet3 && ssh-keygen
+   77  mkdir WorkSheet3
+   78  cd ~/WorkSheet3 && ssh-keygen
+   79  ssh-keygen
+   80  cat id_rsa.pub
+   81  cd ~/WorkSheet3
+   82  mkdir WorkSheet3
+   83  cd WorkSheet3 && ssh-keygen
+   84  cat id_rsa.pub
+   85  cd ~/.ssh && ssh-keygen
+   86  cat id_rsa.pub
+   87  ssh-keygen -t ed25519 -C "rikkierielle@gmail.com"
+   88  eval "$(ssh-agent -s)"
+   89  open ~/.ssh/config
+   90  touch ~/.ssh/config
+   91  open ~/.ssh/config
+   92  clear
+   93  mkdir WorkSheet1
+   94  ls -ltr
+   95  cd WorkSheet1/
+   96  touch work.txt
+   97  git init
+   98  git add .
+   99  git status
+  100  git config --global user.name "rikkierielle"
+  101  git remote add origin https://github.com/rikkierielle/cs131.git
+  102  git commit -m "practice"
+  103  git push --set-upstream origin main 
+  104  git push --set-upstream origin main
+  105  git push -u origin main
+  106  git push -u origin master
+  107  cd~/.ssh && ssh-keygen
+  108  mkdir ~/.ssh
+  109  ls
+  110  touch sample
+  111  git init
+  112  git add .
+  113  git status
+  114  git config --global user.email "rikkierielle.navos@sjsu.edu"
+  115  cd ~/.ssh && ssh-keygen
+  116  cat id_rsa.pub
+  117  git remote add origin git@github.com:rikkierielle/cs131.git
+  118  git commit -m "Practice"
+  119  git commit -a
+  120  git push --set-upstream origin main
+  121  git push -u origin master
+  122  git remote -v
+  123  git push origin main
+  124  git remote remove origin
+  125  git remote add origin git@github.com:rikkierielle/cs131.git
+  126  git push origin main
+  127  git commit -m "initial commit"
+  128  git add practice.tct
+  129  git add practice.txt
+  130  git commit -m "initial commit"
+  131  git push origin main
+  132  git push origin master
+  133  chmod 700 ~/.ssh
+  134  chmod 600 ~/.ssh/*
+  135  remote -v
+  136  git remove -v
+  137  git remote -v
+  138  git push origin main
+  139  git remote -v
+  140  cd ~/.ssh && ssh-keygen
+  141  ls
+  142  git status
+  143  git add <key.txt>
+  144  git add key.txt
+  145  git commit -m "try"
+  146  git push --set-upstream origin main
+  147  git push -u origin main
+  148  git init
+  149  git config --global user.email "rikkierielle.navos@sjsu.edu"
+  150  git remote add origin https://github.com/rikkierielle/cs131.git
+  151  git commit -m "Message1"
+  152  git add WorkSheet1/
+  153  touch new.txt
+  154  git add new.txt
+  155  git commit -m "Message"
+  156  git push --set-upstream origin main
+  157  git remote -v
+  158  ls
+  159  cd /~.ssh
+  160  cd~/.ssh
+  161  cd ~/.ssh
+  162  ssh-keygen
+  163  cat file.pub
+  164  ls
+  165  git status
+  166  git add file
+  167  git commit -m "first"
+  168  git push -u origin main 
+  169  git push -u origin master
+  170  git push -u origin main
+  171  ls
+  172  git rm cmds.log
+  173  git rm config
+  174  git rm key.txt
+  175  git rm new.txt
+  176  git rm practice.txt
+  177  git rm test.txt
+  178  git rm WorkSheet1
+  179  git rm counts.txt
+  180  git push --force -u origin master
+  181  git push -u origin master
+  182  git push -u origin main
+  183  git push -u origin master
+  184  git push -f origin master
+  185  git remote add origin git@github.com:rikkierielle/cs131.git
+  186  git branch -M main
+  187  git push -u origin main
+  188  mkdir key_backup
+  189  ssh-keygen
+  190  cat id_rsa.pub
+  191  cd ~/.ssh && ssh-keygen
+  192  cat id_rsa.pub
+  193  git remote add origin git@github.com:rikkierielle/CS131.git
+  194  git branch -M main
+  195  git push -u origin main
+  196  git rm test.txt
+  197  git init
+  198  git rm text.txt
+  199  ls
+  200  wget https://raw.githubusercontent.com/khanchandaniashish/CS131/main/Global%20YouTube%20Statistics.csv
+  201  grep 'United States' *
+  202  ls
+  203  rm 'Global YouTube Statistics.csv.1'
+  204  ls
+  205  grep 'United States' *
+  206  grep 'United States' * > output.txt
+  207  cat output.txt
+  208  mv output.txt
+  209  mv unitedstates.txt output.txt
+  210  mv output.txt unitedstates.txt
+  211  cat unitedstates.txt
+  212  grep 'highest_monthly_earnings" unitedstates.txt
+  213  f.txt
+  214  x
+  215  :wq!
+  216  end
+  217  cancel
+  218  ls
+  219  unitedstates.txt
+  220  exit
+  221  file
+  222  cancel
+  223  x
+  224  cat unitedstates.txt
+  225  ls
+  226  grep 'United States' 'Global Youtube Statistics.csv'
+  227  grep 'United States' *
+  228  grep 'United States' > us.txt
+  229  cat us.txt
+  230  ls
+  231  cat us.txt
+  232  grep -n "United States" * > us.txt
+  233  cat us.txt
+  234  grep "highest_monthly_earnings" us.txt
+  235  sort us.txt
+  236  wc us.txt
+  237  wc -l us.txt
+  238  grep -i "highest_monthly_earnings" us.txt
+  239  grep "highest_monthly_earnings" *
+  240  grep -n "highest_monthly_earnings" us.txt > us1.txt
+  241  cat us1.txt
+  242  ls
+  243  grep "highest_monthly_earnings" us.txt
+  244  grep -i "highest_monthly_earnings" *
+  245  grep "highest_monthly_earnings" * > earnings.txt
+  246  cat earnings.txt
+  247  sort "highest_monthly_earnings"
+  248  sort earnings.txt
+  249  wc earnings.txt
+  250  wc -l earnings.txt
+  251  grep "highest_monthly_earnings"
+  252  sort "highest_monthly_earnings"
+  253  ls
+  254  sort 'Global YouTube Statistics.csv'
+  255  ls
+  256  sort -k highest_monthly_earnings 'Global YouTube Statistics.csv'
+  257  sort -k 15 'Global YouTube Statistics.csv'
+  258  sort 'Global YouTube Statistics.csv' > earnings.txt
+  259  cat earnings.txt
+  260  sort earnings.txt
+  261  grep "United States" earnings.txt
+  262  grep "United States" earnings.txt > us.txt
+  263  cat us.txt
+  264  sort us.txt
+  265  sort -n data.txt
+  266  sort -n us.txt
+  267  grep "highest_monthly_earnings" us.txt
+  268  grep "highest_monthly_earnings" 'Global YouTube Statistics.csv'
+  269  sort -k 16 us.txt
+  270  sort-t "," -k 16 us.txt
+  271  sort -t "," -k 16 us.txt
+  272  sort -t "," -k 16 us.txt > us.txt
+  273  cat us.txt
+  274  ls
+  275  cat us.txt
+  276  cat us1.txt
+  277  cat earnings.txt
+  278  grep "United States" earnings.txt > us.txt
+  279  cat us.txt
+  280  sort -t "," -k 16 us.txt -o us1.txt
+  281  cat us1.txt
+  282  tail -n 1 > op.txt
+  283  ls
+  284  sort us1.txt
+  285  sort -t "," -k 16 us.txt > us1.txt
+  286  cat us1.txt
+  287  tail -n 1 us1.txt > op.txt
+  288  cat op.txt
+  289  grep "the United Kingdom" earnings.txt 
+  290  grep "United Kingdome" earnings.txt
+  291  grep "United Kingdom" earnings.txt
+  292  grep "United Kingdom" earnings.txt > uk.txt
+  293  cat uk.txt
+  294  sort -t "," -k 16 uk.txt > uk1.txt
+  295  tail -n 1 uk1.txt >> op.txt
+  296  cat op.txt
+  297  grep "India" earnings.txt > india.txt
+  298  sort -t "," -k 16 india.txt >> op.txt
+  299  op.txt
+  300  cat op.txt
+  301  grep "United States" op.txt > op1.txt
+  302  cat op1.txt
+  303  grep "nigahiga" op.txt > op1.txt
+  304  cat op1.txt
+  305  cat op.txt
+  306  grep "United Kingdom" op.txt >> op1.txt
+  307  cat op1.txt
+  308  tail -n 1 op.txt >> op1.txt
+  309  cat op1.txt
+  310  ls
+  311  grep Sports 'Global YouTube Statistics.csv' > sports.txt
+  312  cat sports.txt
+  313  sort -t "," -k 3 sports.txt > sports1.txt
+  314  tail -n 1 sports1.txt > sports1.txt
+  315  cat sports1.txt
+  316  cat sports.txt
+  317  sort -t "," -k 3 sports.txt > sports1.txt
+  318  cat sports1.txt
+  319  tail -n 1 sports1.txt > sports.txt
+  320  cat sports.txt
+  321  tail -n 1 sports.txt > op2.txt
+  322  cat op2.txt
+  323  grep "Entertainment" 'Global YouTube Statistics.csv' > ent.txt
+  324  cat ent.txt
+  325  sort -t "," -k 3 ent.txt > ent.txt
+  326  cat ent.txt
+  327  grep "Entertainment" 'Global YouTube Statistics.csv' > ent.txt
+  328  cat ent.txt
+  329  sort -t "," -k 3 ent.txt > ent1.txt
+  330  cat ent1.txt
+  331  tail -n 1 ent1.txt >> op2.txt
+  332  cat op2.txt
+  333  grep "Education" 'Global YouTube Statistics.csv' > ed.txt
+  334  cat ed.txt
+  335  sort -t "," -k 3 ed.txt > ed1.txt
+  336  cat ed1.txt
+  337  tail -n 1 ed1.txt >> op2.txt
+  338  cat op2.txt
+  339  cat op.txt op2.txt > ws3.txt
+  340  cat ws3.txt
+  341  cat op.txt
+  342  op1.txt
+  343  cat op1.txt
+  344  cat op1.txt op2.txt > ws3.txt
+  345  cat ws3.txt
+  346  vi ws3.txt
+  347  cat ws3.txt
+  348  history > cmds.log
+  349  git init
+  350  ls
+  351  git add ws3.txt
+  352  git status
+  353  git add ws3.txt
+  354  git commit -m "worksheet 3 outputs"
+  355  git push -u origin main
+  356  git push -f origin main
+  357  git add cmds.log
+  358  git commit -m "history"
+  359  git push -f origin main
+  360  git status
+  361  history > cmds.log
+  362  git add cmds.log
+  363  git commit -m 'history'
+  364  git push -f origin main
+  365  mkdir WorkSheet1
+  366  cd WorkSheet1
+  367  git add WorkSheet1
+  368  pwd
+  369  ls
+  370  rm op.txt
+  371  rm op2.txt
+  372  rm op1.txt
+  373  ls
+  374  rm sports.txt
+  375  rm sports1.txt
+  376  rm uk.txt
+  377  rm unique
+  378  rm us.txt
+  379  ls
+  380  rm ed1.txt
+  381  rm ed.txt
+  382  rm sample
+  383  rm sampleProject
+  384  rm us1.txt
+  385  ls
+  386  rm india.txt
+  387  rm ent.txt
+  388  rm uk1.txt
+  389  ls
+  390  rm sample
+  391  rm ent1.txt
+  392  ls
+  393  mkdir Assignment1
+  394  cd Assignment1
+  395  echo "My Shell name is: $SHELL"
+  396  pwd
+  397  echo $HOME
+  398  id
+  399  pwd
+  400  mkdir myDir
+  401  chmod u-w myDir
+  402  cd myDir
+  403  ls
+  404  ls -l
+  405  touch try.txt
+  406  mkdir myDir2
+  407  cd Assignment1
+  408  pwd
+  409  cd ..
+  410  pwd
+  411  mkdir myDir2
+  412  mkdir myDir3
+  413  cd myDir2
+  414  touch myFile.txt
+  415  mv myFile.txt myDir3
+  416  cd myDir3
+  417  pwd
+  418  cd ..
+  419  ls
+  420  cd myDir3
+  421  ls
+  422  cd myDir2
+  423  cd ..
+  424  cd myDir2
+  425  ls
+  426  mv myDir3 /rikkif23/Assignment1/
+  427  mv myDir3 Assignment1
+  428  pwd
+  429  cd..
+  430  cd ..
+  431  ls
+  432  cd myDir2
+  433  ls
+  434  cd ..
+  435  ls
+  436  cd ..
+  437  ls
+  438  cd Assignment1
+  439  ls
+  440  cd myDir3
+  441  ls
+  442  pwd
+  443  cd ..
+  444  cd myDir2
+  445  touch myFile.txt
+  446  ls
+  447  mv myFile.txt /mnt/scratch/FA23_CS131_Ashish/rikkif23/Assignment1/myDir3
+  448  ls
+  449  cd ..
+  450  cd myDir3
+  451  ls
+  452  man free
+  453  free -m, --mebi
+  454  free -m
+  455  free --mebi
+  456  hostnamectl
+  457  at /etc/os-release
+  458  cat /etc/os-release
+  459  cd ..
+  460  vi Assignment1
+  461  uid=1143(rikkif23) gid=1143(rikkif23) groups=1143(rikkif23),77(S77)
+  462  vi Assignment1
+  463  touch Assignment1
+  464  vi Assignment1
+  465  history > cmds.log
+  466  ls
+  467  git init
+  468  git config --global user.email "rikkierielle.navos@sjsu.edu"
+  469  git init
+  470  git remote add origin
+  471  git remote add origin git@github.com:rikkierielle/CS131.git
+  472  git commit -m "This is for Assignment 1"
+  473  git add Assignment1
+  474  git commit -m "This is for Assignment 1"
+  475  got push --set-upstream origin main
+  476  git push --set-upstream origin main
+  477  git push --set-upstream origin master
+  478  git push -f main
+  479  git push -u origin main
+  480  git add cmds.log
+  481  git commit -m "History"
+  482  git push -u origin main
+  483  git push -f origin main 
+  484  git push -u origin master
+  485  ls
+  486  cd..
+  487  cd ..
+  488  ls
+  489  git add Assignment1
+  490  git commit -m "Assignment 1 Dir"
+  491  git push -u origin main
+  492  git push -u origin master
+  493  git push -f origin master
+  494  git status
+  495  kill -1
+  496  kill -l
+  497  git init
+  498  clear
+  499  git init
+  500  git config
+  501  git config --global user.name "rikkierielle.navos@sjsu.edu"
+  502  chmod -wx
+  503  chmod 755
+  504  ls
+  505  git init
+  506  pwd
+  507  chmod -R 777 /mnt/scratch/FA23_CS131_Ashish/rikkif23
+  508  git init
+  509  sudo git init
+  510  ls
+  511  git init
+  512  ls
+  513  touch try.txt
+  514  ls
+  515  rm try.txt
+  516  ls
+  517  git init
+  518  sudo git init
+  519  nano ~/.bashrc
+  520  source ~/.bashrc
+  521  l
+  522  w
+  523  ls
+  524  mkdir WorkSheet4
+  525  ls
+  526  cd WorkSheet4
+  527  ls
+  528  mkdir Subs
+  529  ls
+  530  cd Subs
+  531  touch unitedstates.txt
+  532  ls
+  533  touch india.txt
+  534  ls
+  535  grep 'United States' 'Global Youtube Statistics.csv'
+  536  cd ..
+  537  ls
+  538  cd ..
+  539  ls
+  540  grep 'United States' 'Global YouTube Statistics.csv' > us.txt
+  541  ls
+  542  mv us.txt WorkSheet4/Subs/us.txt
+  543  cd WorkSheet4
+  544  ls
+  545  cd Subs
+  546  ls
+  547  cd ..
+  548  ls
+  549  grep 'India' 'Global YouTube Statistics.csv' > WorkSheet4/Subs/in.txt
+  550  cd WorkSheet4
+  551  cd Subs
+  552  ls
+  553  mv in.txt india.txt
+  554  ls
+  555  mv us.txt unitedstates.txt
+  556  ls
+  557  cut -f 3 -d ',' unitedstates.txt > unitedstates.txt
+  558  cut -f 3 -d ',' india.txt > india.txt
+  559  cat india.txt
+  560  cat unitedstates.txt
+  561  grep 'India' 'Global YouTube Statistics.csv' > WorkSheet4/Subs/india.txt
+  562  cat india.txt
+  563  grep 'India' 'Global YouTube Statistics.csv' > WorkSheet4/Subs/India.txt
+  564  cd ..
+  565  ls
+  566  grep 'India' 'Global YouTube Statistics.csv' > WorkSheet4/Subs/India.txt
+  567  grep 'United States' 'Global YouTube Statistics.csv' > WorkSheet4/Subs/unitedstates.txt
+  568  cd WorkSheet4/Subs
+  569  ls
+  570  cat India.txt
+  571  ls
+  572  rm india.txt
+  573  ls
+  574  cat unitedstates.txt
+  575  cut -f 3 -d ',' India.txt > in.txt
+  576  ls
+  577  cat in.txt
+  578  cut -f 3 ',' -d unitedstates.txt > united.txt
+  579  cut -f 3 -d ',' unitedstates.txt > united.txt
+  580  cat united.txt
+  581  wc -l in.txt
+  582  wc -l united.txt
+  583  cat in.txt | paste -sd+ | bc -l | (read sum; echo "scale=2; $sum / 175" | bc)
+  584  touch ws4
+  585  ls
+  586  mv ws4 > ws4_means.txt
+  587  mv ws4 ws4_meants.txt
+  588  mv ws4_meants.txt ws4_means.txt
+  589  ls
+  590  vi ws4_means.txt
+  591  cat united.txt | paste -sd+ | bc -l | (read sum; echo "scale=2; $sum / 302
+  592  cat united.txt | paste -sd+ | bc -l | (read sum; echo "scale=2; $sum / 302" | bc)
+  593  cat in.txt | paste -sd+ | bc -l | (read sum; echo "scale=2; $sum / 175" | bc)
+  594  cat united.txt | paste -sd+ | bc -l | (read sum; echo "scale=2; $sum / 302" | bc)
+  595  cat united.txt
+  596  cat in.txt
+  597  vi united.txt
+  598  wc -l united.txt
+  599  cat united.txt | paste -sd+ | bc -l | (read sum; echo "scale=2; $sum / 301" | bc)
+  600  ls
+  601  vi ws4_means.txt
+  602  cs ws4_meants.txt
+  603  cat ws4_means.txt
+  604  cat India.txt
+  605  rm India.txt
+  606  ls
+  607  cat unitedstates.txt
+  608  rm unitedstates.txt
+  609  ls
+  610  git init
+  611  git config --global user.name "rikkierielle"
+  612  git remote add origin git@github.com:rikkierielle/CS131.git
+  613  git status
+  614  cd ..
+  615  ls
+  616  git add WorkSheet4
+  617  git commit -m "Worksheet 4"
+  618  git add WorkSheet4/
+  619  git add WorkSheet4...
+  620  git add WorkSheet4/Subs/
+  621  git push --set-upstream origin master
+  622  ls
+  623  git status
+  624  git add WorkSheet4/
+  625  git commit -a
+  626  git add .
+  627  git status
+  628  git add .
+  629  git init
+  630  script ws4.txt
+  631  ls
+  632  mv ws4.txt WorkSheet4/ws4.txt
+  633  cd WorkSheet4
+  634  ls
+  635  git commit -m "WorkSheet4" 
+  636  ls
+  637  cd ..
+  638  ls
+  639  git add WorkSheet4/
+  640  git status
+  641  git checkout master
+  642  git checkout main
+  643  git add WorkSheet4/
+  644  cd WorkSheet4
+  645  cd Subs
+  646  ls
+  647  git add .
+  648  git status
+  649  cd ..
+  650  ls
+  651  git add Subs
+  652  git add .
+  653  cd Subs
+  654  git add .
+  655  git status
+  656  git commit -m "WorkSheet4"
+  657  git push -u
+  658  git push --set-upstream origin master
+  659  git config
+  660  got config --global user.name "rikkierielle"
+  661  git config --global user.name "rikkierielle"
+  662  git remote add origin git@github.com:rikkierielle/CS131.git
+  663  git commit -m "WorkSheet4"
+  664  git add .
+  665  git status
+  666  ls
+  667  git add .
+  668  git push --set-upstream origin master
+  669  git push origin master
+  670  ls -l
+  671  chmod -R u+rwX .
+  672  ls -l
+  673  git status
+  674  ls
+  675  git add int.txt
+  676  git add in.txt
+  677  git add united.txt
+  678  git add ws4_means.txt
+  679  git commit -m "WorkSheet4"
+  680  git push origin main
+  681  git init
+  682  git config --user.name "rikkierielle"
+  683  git config --global user.name "rikkierielle"
+  684  git status
+  685  ls
+  686  git add WorkSheet4
+  687  git commit -m "Worksheet 4"
+  688  git push origin master
+  689  git push origin main
+  690  git push main
+  691  git push master
+  692  git remote add origin git@github.com:rikkierielle/CS131.git
+  693  git push master
+  694  git status
+  695  ls
+  696  git add WorkSheet4
+  697  git status
+  698  ls
+  699  pwd
+  700  git clone git@github.com:rikkierielle/CS131.git
+  701  git clone https://github.com/rikkierielle/CS131.git
+  702  ls
+  703  mv WorkSheet4 CS131
+  704  ls
+  705  cd CS131
+  706  ls
+  707  git status
+  708  git add WorkSheet4/
+  709  git rm --cached WorkSheet4/Subs
+  710  ls
+  711  cd ..
+  712  git status
+  713  pwd
+  714  git remote -v
+  715  ls
+  716  rm CS131
+  717  rm -dr CS131
+  718  pwd
+  719  cd ..
+  720  pwd
+  721  git status
+  722  cd rikkif23
+  723  git status
+  724  cd ..
+  725  git clone https://github.com/rikkierielle/CS131.git
+  726  cd rikkif23
+  727  cd ..
+  728  sudo git clone https://github.com/rikkierielle/CS131.git
+  729  git remote -v
+  730  cd rikkif23
+  731  git remote -v
+  732   cd ~/.ssh && ssh-keygen
+  733  cat id_rsa.pub
+  734  pwd
+  735  git status
+  736  cd ..
+  737  ls
+  738  cd CS131
+  739  ls
+  740  git status
+  741  git remote -v
+  742  cd ..
+  743  ls
+  744  pwd
+  745  rm 
+  746  cd ..
+  747  ls
+  748  git status
+  749  cd rikkif23/
+  750  git status
+  751  ls
+  752  cs CS131
+  753  ds CS131
+  754  cd CS131
+  755  ls
+  756  pwd
+  757  ls
+  758  git lg
+  759  git log
+  760  pwd
+  761  cd ..
+  762  find / -name Work
+  763  q
+  764  quit
+  765  ls
+  766  pwd
+  767  mv cs131
+  768  cd cs131
+  769  ls
+  770  clear
+  771  script ws4.txt
+  772  nano ~/.bashrc
+  773  l
+  774  w
+  775  nano ~/.bashrc
+  776  ls
+  777  cd ..
+  778  ls
+  779  l
+  780  w
+  781  ls
+  782  mkdir WorkSheet4
+  783  grep 'India' 'Global YouTube Statistics.csv' > india.txt
+  784  grep -i 'United States' 'Global YouTube Statistics.csv' > united.txt
+  785  cat india.txt
+  786  cat united.txt
+  787  ls
+  788  l
+  789  cd ..
+  790  l
+  791  w
+  792  nano ~/.bashrc
+  793  cat ~/.bashrc
+  794  ls
+  795  cd WorkSheet4
+  796  mkdir Subs
+  797  ls
+  798  cd ..
+  799  ls
+  800  rm india.txt
+  801  ls
+  802  rm united.txt
+  803  ls
+  804  grep -i 'United States' 'Global YouTube Statistics.csv' > unitedstates.txt
+  805  ls
+  806  grep -i 'India' 'Global YouTube Statistics.csv' > india.txt
+  807  ls
+  808  cut -f 3 -d ',' unitedstates.txt > unitedstates.txt
+  809  cat unitedstates.txt
+  810  cat india.txt
+  811  grep -i 'United States' 'Global YouTube Statistics.csv' > unitedstates.txt
+  812  cat unitedstates.txt
+  813  cut -f 3 -d ',' unitedstates.txt > united.txt
+  814  cat united.txt
+  815  vi united.txt
+  816  cat united.txt
+  817  cut -f 3 -d ',' india.txt > in.txt
+  818  cat in.txt
+  819  history
+  820  wc -l in.txt
+  821  wc -l united.txt
+  822  ls
+  823  mv in.txt WorkSheet4/in.txt
+  824  mv united.txt WorkSheet4/united.txt
+  825  cd WorkSheet4
+  826  ls
+  827  cat in.txt
+  828  cat in.txt | paste -sd+ | bc -l | (read sum; echo "scale=2; $sum / 175" | bc)
+  829  ls
+  830  touch ws4_means.txt
+  831  vi ws4_means.txt
+  832  cat united.txt | paste -sd+ | bs -l | (read sum; echo 
+  833  cat united.txt | paste -sd+ | bs -l | (read sum; echo "scale=2; $sum / 301" | bc)
+  834  cat united.txt
+  835  cat united.txt | paste -sd+ | bc -l | (read sum; echo "scale=2; $sum / 301" | bc)
+  836  ls
+  837  vi ws4_means.txt
+  838  ls
+  839  cat ws4_means.txt
+  840  ls
+  841  mv ws4_means.txt Subs/ws4_means.txt
+  842  ls
+  843  cd Subs
+  844  ls
+  845  cat ws4_means.txt
+  846  cd ..
+  847  ls
+  848  mv united.txt Subs/united.txt
+  849  mv in.txt Subs/in.txt
+  850  ls
+  851  cd ..
+  852  ls
+  853  mv WorkSheet4 CS131/WorkSheet4
+  854  cd CS131
+  855  ls
+  856  cd WorkSheet4
+  857  ls
+  858  cd Subs
+  859  ls
+  860  cd ../..
+  861  ls
+  862  git status
+  863  git add WorkSheet4/
+  864  git status
+  865  git commit -m "Commit for WS4"
+  866  git push
+  867  history
+  868  history > his.txt
+  869  cat his.txt
+  870  git init 
+  871  git config --global user.name "rikkierielle"
+  872  git remote add origin https://github.com/rikkierielle/CS131.git
+  873  git remote -v
+  874  ls
+  875  cd CS131
+  876  ls
+  877  cd ..
+  878  mv cs131 cs131_old
+  879  mv CS131 CS131_old
+  880  ls
+  881  git clone https://github.com/rikkierielle/CS131.git
+  882  ls
+  883  cd CS131
+  884  ls
+  885  touch simple.txt
+  886  ls
+  887  git add simple.txt
+  888  git status
+  889  git commit -m "This is a simple file"
+  890  git push -u
+  891  git remote add origin https://github.com/rikkierielle/CS131.git
+  892  git push --set-upstream origin master
+  893  clear
+  894  git status
+  895  ls
+  896  git add simple.txt
+  897  git status
+  898  git commit -m "simple"
+  899  git push .
+  900  git push
+  901  clear
+  902  ls
+  903  cd ..
+  904  ls
+  905  rm -rf CS131
+  906  ls
+  907  git clone git@github.com:rikkierielle/CS131.git
+  908  mkdir CSmkdir CS!
+  909  mkdir CS131
+  910  cd CS131
+  911  git clone git@github.com:rikkierielle/CS131.git
+  912  git config --global user.name "rikkierielle"
+  913  git config --global user.email "rikkierielle.navos@sjsu.edu"
+  914   cd ~/.ssh && ssh-keygen
+  915  cat id_rsa.pub
+  916  ls
+  917  git clone git@github.com:rikkierielle/CS131.git
+  918  cd ..
+  919  ls
+  920  rmdir 'CS!*
+  921  '
+  922  rmdir CS131
+  923  ls
+  924  git clone git@github.com:rikkierielle/CS131.git
+  925  git remote -v
+  926  git remote set-url origin git@github.com:rikkierielle/CS131.git
+  927  git remote -v
+  928  git clone git@github.com:rikkierielle/CS131.git
+  929  pwd
+  930  git clone https://github.com/rikkierielle/CS131.git
+  931  cd CS131
+  932  git init
+  933  git status
+  934  touch f.txt
+  935  git add f.txt
+  936  git status
+  937  git commit -m "."
+  938  git push
+  939  git push origin master
+  940  git remote -v
+  941  git remote set-url origin git@github.com:rikkierielle/CS131.git
+  942  git remove -v
+  943  git remote -v
+  944  ls
+  945  git status
+  946  git push
+  947  ls ~/.
+  948  cd ~/.ssh/
+  949  ls -ltr
+  950  cd ..
+  951  ls
+  952  cd ~/.shh/
+  953  ls -ltr
+  954  cd ..
+  955  git push origin master
+  956  git push origin main
+  957  git push origin maSTER
+  958  git remote -v
+  959  git push origin master
+  960  git pull --rebase
+  961  git commit =m "some"
+  962  git commit -m "some"
+  963  cd CS131
+  964  ls
+  965  git status
+  966  git remote -v
+  967  git push origin master
+  968  chown -R rikkif23:users .ssh/
+  969  rm -rf ~/.shh
+  970  rm -rf ~/.ssh
+  971   cd ~/.ssh && ssh-keygen
+  972  mkdir ~/.ssh
+  973  cd ~/.ssh && ssh-keygen
+  974   cat id_rsa.pub
+  975  cd ..
+  976  git clone git@github.com:rikkierielle/CS131.git
+  977  rm -rf CS131
+  978  git clone git@github.com:rikkierielle/CS131.git
+  979  cd CS131
+  980  ls
+  981  vi  a.txt
+  982  ls
+  983  git add .
+  984  git commit "this is my commit"
+  985  git commit -m "this is my commit"
+  986  git status
+  987  git remote -v
+  988  git push
+  989  ls
+  990  git init
+  991  git config --global user.name "rikkierielle"
+  992  git config --global user.email "rikkierielle.navos@sjsu.edu"
+  993  git remote -v
+  994  ls
+  995  cd WorkSheet4
+  996  ls
+  997  script ws4.txt
+  998  ls
+  999  cd CS131
+ 1000  ls
+ 1001  mkdir Assignment1
+ 1002  cat Assignment1
+ 1003  mv Assignment1 Assignment.txt
+ 1004  ls
+ 1005  cat Assignment.txt
+ 1006  mkdir Assignment1
+ 1007  mv Assignment.txt /Assignment1
+ 1008  ls
+ 1009  cd Assignment1
+ 1010  pwd
+ 1011  cd .. 
+ 1012  mv Assignment.txt /mnt/scratch/FA23_CS131_Ashish/rikkif23/CS131/Assignment1
+ 1013  ls
+ 1014  cd Assignment1
+ 1015  ls
+ 1016  cd .. 
+ 1017  mv a.txt /mnt/scratch/FA23_CS131_Ashish/rikkif23/CS131/Assignment1
+ 1018  mv cmds.log /mnt/scratch/FA23_CS131_Ashish/rikkif23/CS131/Assignment1
+ 1019  ls
+ 1020  cd Assignment1
+ 1021  ls
+ 1022  cd ..
+Start of Assignment 2:
+ 1023  cd Assignment2
+ 1024  ls
+Question 1: 
+ 1025  cat one.txt
+ 1026  cat two.txt
+ 1027  cd ../..
+ 1028  ls
+ 1029  cat 'Global YouTube Statistics.csv' 
+Question 2: 
+ 1030  cut -d "," -f 22 'Global YouTube Statistics.csv' 
+ 1031  cut -d "," -f 20,21 'Global YouTube Statistics.csv' 
+ 1032  cut -d "," -f 20,21 'Global YouTube Statistics.csv' > Date.txt
+ 1033  ls
+ 1034  sort Date.txt | uniq -d -c
+ 1035  cat Date.txt
+ 1036  sort Date.txt | uniq -d -c > Date.txt
+ 1037  cat Date.txt
+ 1038  ls
+ 1039  cat Date.txt
+ 1040  cut -d "," -f 20,21 'Global YouTube Statistics.csv' > Date.txt
+ 1041  cat Date.txt
+ 1042  uniq -d -c > date.txt
+ 1043  ls
+ 1044  cat date.txt
+ 1045  sort 'Global YouTube Statistics.csv' | uniq -d -c > date.txt
+ 1046  cat date.txt
+ 1047  sort 'Global YouTube Statistics.csv' | uniq -c | sort -nr > date.txt
+ 1048  cat date.txt
+ 1049  sort Date.txt | uniq -c | sort -nr > date.txt
+ 1050  cat date.txt
+ 1051  history
+Question 3: 
+ 1052  ps -u rikkif23
+Question 4:
+ 1053  vi file.txt
+ 1054  ls
+ 1055  cd CS131
+ 1056  ls
+ 1057  cd Assignment2
+ 1058  ls
+ 1059  vim file.txt
+ 1060  vi Assignment2.txt
+ 1061  vi file.txt
+ 1062  vi Assignment2.txt
+ 1063  ls
+ 1064  touch cmds.log
+ 1065  ls
+ 1066  history > cmds.log
+
+Note: Some commands not outputted as I used two terminals to do the Assignment from the beginning.
