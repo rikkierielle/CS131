@@ -1,0 +1,30 @@
+  
+Genre # of Occurences
+
+
+Comedy : 17946
+
+Action : 21162
+ 
+Romance : 1534
+    
+Sci-Fi : 1596
+ 
+Mystery : 633
+
+
+Total Animes: 45718
+
+Note: Each data (Anime) can have more than one genre.
+
+
+Commands used:
+grep -i 'Comedy' imdb_anime.csv | wc -l > genre.csv
+grep -i 'Action' imdb_anime.csv | wc -l >> genre.csv
+grep -i 'Romance' imdb_anime.csv | wc -l >> genre.csv
+grep -i 'Sci-Fi' imdb_anime.csv | wc -l >> genre.csv
+grep -i 'Mystery' imdb_anime.csv | wc -l >> genre.csv
+
+
+
+
